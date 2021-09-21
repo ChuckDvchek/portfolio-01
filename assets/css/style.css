@@ -28,9 +28,12 @@ header ul {
 header li {
     display: inline;
     padding: 0 5px;
+    margin: 2%;
+    border-bottom: rgb(184, 171, 97) solid;
 }
 header a {
     color: rgb(184, 171, 97);
+    text-decoration: none;
 }
 
 header img {
