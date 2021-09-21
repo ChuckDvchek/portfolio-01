@@ -49,7 +49,7 @@ main {
     background-image: url("../images/placeimg_800_200_nature.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 25vh;
+    min-height: 30vh;
     min-width: 100vw;
 }
 
