@@ -112,6 +112,10 @@ main {
     flex-basis: 100%;
 }
 
+.card:hover, .card:hover img {
+    filter: contrast(140%);
+}
+
 .page-section li {
     display: inline;
     list-style-type: none;
