@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 header {
     position:absolute;
     background: rgb(99, 63, 23);
@@ -13,7 +17,7 @@ header h1 {
     padding: 4px 4px 4px 3%;
     position: absolute;
     top: -10px;
-    background: rgb(153, 192, 228);
+    background: rgb(184, 171, 97);
     color: rgb(99, 63, 23);
 }
 
@@ -29,7 +33,7 @@ header li {
     padding: 0 5px;
 }
 header a {
-    color: rgb(153, 192, 228);
+    color: rgb(184, 171, 97);
 }
 
 header img {
@@ -39,11 +43,59 @@ header img {
 
 header h2 {
     position: absolute;
-    background: rgb(153, 192, 228);
+    background: rgb(184, 171, 97);
     right: 5%;
-    bottom: -350px;
+    /* bottom: ; */
     padding: 5px;
 }
 main {
-    margin-top: 450px;
+    margin-top: 10px;
+}
+
+.background {
+    background-image: url("../images/placeimg_800_200_nature.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    width: 100%;
+}
+
+.page-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.page-section > h1 {
+    flex: 0 0 10%;
+    text-align: right;
+    padding-right: 1%;
+    margin-right: 3%;
+    border-right: 5px solid rgb(99, 63, 23);
+    color: rgb(99, 63, 23);
+    font-size: 235%;
+}
+
+.page-section > div {
+    flex: 0 0 66%;
+    margin: 2% 0;
+}
+
+.container {
+   display: flex; 
+   flex-wrap: wrap;
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 45%;
+    border: rgb(184, 171, 97) solid;
+    margin: 2%;
+}
+
+.card:nth-of-type(1){
+    flex-basis: 100%;
 }
