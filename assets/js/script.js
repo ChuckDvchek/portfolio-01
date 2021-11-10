@@ -47,13 +47,13 @@ work5Div.addEventListener('click',function(event){
 var w1SiteBtn = document.querySelector('#w1-site-btn');
 w1SiteBtn.addEventListener('click',function(event){
     event.stopPropagation();
-    window.location.href="https://chuckdvchek.github.io/thirsty-thursdays/";
+    window.location.href="https://letsplaychessproj2.herokuapp.com/";
 });
 
 var w1GitBtn = document.querySelector('#w1-github-btn');
 w1GitBtn.addEventListener('click',function(event){
     event.stopPropagation();
-    window.location.href="https://github.com/ChuckDvchek/thirsty-thursdays";
+    window.location.href="https://github.com/ChuckDvchek/chess-project-2";
 });
 
 //adds functionality to work two's buttons
@@ -86,13 +86,13 @@ w3GitBtn.addEventListener('click',function(event){
 var w4SiteBtn = document.querySelector('#w4-site-btn');
 w4SiteBtn.addEventListener('click',function(event){
     event.stopPropagation();
-    //window.location.href="https://chuckdvchek.github.io/thirsty-thursdays/";
+    window.location.href="https://chuckdvchek.github.io/thirsty-thursdays/";
 });
 
 var w4GitBtn = document.querySelector('#w4-github-btn');
 w4GitBtn.addEventListener('click',function(event){
     event.stopPropagation();
-    //window.location.href="https://github.com/ChuckDvchek/thirsty-thursdays";
+    window.location.href="https://github.com/ChuckDvchek/thirsty-thursdays";
 });
 
 //adds functionality to work five's buttons
